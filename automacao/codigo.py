@@ -21,7 +21,7 @@ pa.PAUSE = 0.5
 
 def is_window_maximized():
     # Obtém a janela do Chrome
-    chrome_window = gw.getWindowsWithTitle('Google Chrome')[0]  # Supondo que existe apenas uma janela do Chrome aberta
+    chrome_window = gw.getWindowsWithTitle('Google Chrome')[1]  # Supondo que existe apenas uma janela do Chrome aberta
     # Verifica se a janela do Chrome está maximizada
     return chrome_window.isMaximized
 
